@@ -1,0 +1,31 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+span {
+  display: flex;
+  font-size: 5em;
+  justify-content: center;
+  font-weight: bold;
+}
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#btnIncrement {
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#btnDecrement {
+  background-color: rgb(99, 99, 226);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
